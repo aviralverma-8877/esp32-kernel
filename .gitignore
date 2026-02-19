@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.map
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE files
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.bak
