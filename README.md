@@ -43,6 +43,24 @@ A bare-metal operating system kernel for ESP32-WROOM-32 with cooperative multita
    - UART status task
    - Fibonacci compute task
 
+## Quick Start
+
+### Debian 13 / Ubuntu Users
+
+Use the automated build script:
+
+```bash
+git clone https://github.com/aviralverma-8877/esp32-kernel.git
+cd esp32-kernel
+./build-debian.sh
+```
+
+See [DEBIAN_BUILD.md](DEBIAN_BUILD.md) for detailed instructions.
+
+### Other Systems
+
+Continue to the Prerequisites section below.
+
 ## Prerequisites
 
 ### Toolchain
